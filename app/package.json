@@ -1,6 +1,16 @@
 {
   "name": "jbbthnotebook",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "jbbth",
+  { "license" : "SEE LICENSE IN LICENSE file" },
+  "bugs": {
+    "url": "https://github.com/jbbth/notebook/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/my_package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbbth/notebook.git"
+  },
   "dependencies": {
 	"markdown-it":">=8.4.0",
 	"forever":">=0.15.3"
