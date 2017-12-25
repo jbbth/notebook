@@ -1,0 +1,11 @@
+{
+  "name": "jbbthnotebook",
+  "version": "0.0.0",
+  "dependencies": {
+	"markdown-it":">=8.4.0",
+	"forever":">=0.15.3"
+  },
+  "scripts": {
+    "start": "forever -w app/app.js"
+  }
+}

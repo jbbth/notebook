@@ -1,0 +1,17 @@
+version: '2'
+services:
+  notebook:
+    image: jbbthnotebook
+    build:
+      context: ./
+      args:
+        NODE_ENV: development
+    container_name: jbbthnotebook
+    volumes:
+      - ./notes:/usr/src/notes
+      - ./app:/usr/src/app
+
+networks:
+  default:
+    external:
+      name: local_net
